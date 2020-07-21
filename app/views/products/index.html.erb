@@ -4,6 +4,12 @@
     <h1>Products</h1>
   </header>
 
+  <% flash.each do |type, msg| %>
+    <div>
+      <%= msg %>
+    </div>
+  <% end %>
+
   <div class="products">
     <%= render @products %>
   </div>
