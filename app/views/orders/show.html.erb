@@ -1,5 +1,9 @@
 <section class="orders-show">
-<%= puts @line_items = @order.line_items %>
+<%= p @line_items = @order.line_items %>
+<% p @order.email %>
+<% p @order.total_cents / 100%>
+
+
 
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
@@ -7,12 +11,14 @@
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
-   
+
+    <% @order.total_cents / 100%>
+
   </div>
 
   
   <% @line_items.each do |item| %>
-    <li><%= item %></li>
+    <% p item %>
   <% end %>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
