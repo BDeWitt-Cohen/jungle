@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  validates :email, uniqueness: true
+
   
   def new
   end
