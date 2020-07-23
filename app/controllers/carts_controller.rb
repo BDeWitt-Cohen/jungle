@@ -1,10 +1,6 @@
 class CartsController < ApplicationController
 
   def show
-    if cart.empty?
-      flash[:alert] = "Your cart is empty."
-      # redirect_to :back
-    end
   end
 
   def add_item

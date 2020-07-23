@@ -4,13 +4,13 @@
     <h1>My Cart</h1>
   </header>
 
-  <% flash.each do |type, msg| %>
+  <% if cart.empty? %>
     <div class="alert alert-primary" role="alert">
-      <%= msg %>
-    <a href="/" class="alert-link">Go back home?</a>
+     
+    <a href="/" class="alert-link">Your cart is empty! Go back home?</a>
     </div>
-  <% end %>
-
+  
+  <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -55,5 +55,5 @@
       <% end %>
     </div>
   </div>
-
+  <% end %>
 </section>
