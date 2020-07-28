@@ -10,6 +10,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
+      flash[:alert] = "Sorry there was an issue with your credentials."
       redirect_to '/signup'
     end
   end
