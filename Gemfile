@@ -32,6 +32,13 @@ group :development, :test do
   # ...
 end
 
+#Full test suite
+group :test do
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+end
+
 gem 'puma'
 
 gem 'bootstrap-sass', '~> 3.3.6'
