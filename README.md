@@ -4,8 +4,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 More features are being added for a fuller user and admin experience.
 
 ## Finished Product
+* Home Page - User - Logged In
 !["Home Page - User - Logged In"](https://github.com/BDeWitt-Cohen/jungle/blob/master/docs/Home%20Page%20-%20Logged%20In.png)
+* Category View - User - Logged In
 !["Category View - User - Logged In"](https://github.com/BDeWitt-Cohen/jungle/blob/master/docs/Categories%20-%20User.png)
+* Add Products - Admin View
 !["Add Products - Admin View"](https://github.com/BDeWitt-Cohen/jungle/blob/master/docs/Add%20Products%20-%20Admin.png)
 
 ## Setup
