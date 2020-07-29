@@ -30,6 +30,7 @@ RSpec.describe User, type: :model do
   describe '.authenticate_with_credentials' do
     before :each do
       @user = User.new(first_name: 'Trevor', last_name: 'Thomas', email: 'thomastrevor1@gmail.com', password: 'stuffed', password_confirmation: 'stuffed')
+    
     end
 
     # examples for this class method here

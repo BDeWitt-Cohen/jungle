@@ -1,7 +1,12 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+More features are being added for a fuller user and admin experience.
 
+## Finished Product
+!["Large Monitor View"](docs/Home Page - Logged In.png)
+!["Mobile View"](docs/Categories - User.png)
+!["Tablet View"](docs/Add Products - Admin.png)
 
 ## Setup
 
